@@ -1,4 +1,4 @@
 FROM tomcat
-LABEL maintainer address "SuBBU"
+LABEL maintainer address "SuuBBU"
 COPY **/*.war /usr/local/tomcat/webapps
 CMD ["catalina.sh","run"]
